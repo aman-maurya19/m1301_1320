@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/phonics-university-haridwar-37633",
-  "https://www.shiksha.com/college/shri-shivaji-college-of-arts-commerce-and-science-akola-76187",
-  "https://www.shiksha.com/college/hindustan-college-of-pharmacy-kottayam-88607",
-  "https://www.shiksha.com/college/krupanidhi-college-of-management-krupanidhi-group-of-institutions-sarjapur-road-bangalore-36613",
-  "https://www.shiksha.com/college/mahesh-bhattacharya-homoeopathic-medical-college-and-hospital-howrah-87057",
-  "https://www.shiksha.com/college/smriti-college-of-pharmaceutical-education-indore-88087",
-  "https://www.shiksha.com/college/school-of-optometry-bharati-vidyapeeth-dhankawadi-pune-151781",
-  "https://www.shiksha.com/university/afu-al-falah-university-faridabad-55997",
-  "https://www.shiksha.com/college/hakeem-abdul-hameed-unani-medical-college-and-hospital-dewas-87189",
-  "https://www.shiksha.com/college/sree-sastha-pharmacy-college-chennai-193545",
-  "https://www.shiksha.com/college/dr-d-y-patil-institute-of-pharmacy-akurdi-pune-35063",
-  "https://www.shiksha.com/college/vishwa-bharathi-college-of-pharmaceutical-sciences-guntur-60913",
-  "https://www.shiksha.com/college/shaheed-kartar-singh-sarabha-ayurvedic-medical-college-and-hospital-ludhiana-87143",
-  "https://www.shiksha.com/college/karavali-group-of-colleges-mangalore-22136",
-  "https://www.shiksha.com/college/national-college-of-pharmacy-kozhikode-60851",
-  "https://www.shiksha.com/college/dr-yashwant-singh-parmar-government-medical-college-nahan-himachal-pradesh-other-62733",
-  "https://www.shiksha.com/college/j-p-college-of-pharmacy-lucknow-65637",
-  "https://www.shiksha.com/college/kota-college-of-pharmacy-88365",
-  "https://www.shiksha.com/college/shreeyash-institute-of-pharmacy-aurangabad-53485",
-  "https://www.shiksha.com/university/rkdf-university-ranchi-149665",
+  "https://www.shiksha.com/college/sree-ramakrishna-medical-college-of-naturopathy-and-yogic-sciences-kanyakumari-193613",
+  "https://www.shiksha.com/college/government-medical-college-chittorgarh-210115",
+  "https://www.shiksha.com/college/gujranwala-guru-nanak-khalsa-college-ludhiana-49366",
+  "https://www.shiksha.com/college/prime-college-pharmacy-palakkad-60815",
+  "https://www.shiksha.com/college/sheth-j-p-ayurved-college-bhavnagar-87539",
+  "https://www.shiksha.com/college/dr-balabhai-nanavati-hospital-mumbai-105873",
+  "https://www.shiksha.com/college/k-b-women-s-college-vinoba-bhave-university-hazaribagh-111849",
+  "https://www.shiksha.com/college/v-i-m-s-college-of-physiotheraphy-vijayawada-202111",
+  "https://www.shiksha.com/university/shree-om-university-roorkee-30564",
+  "https://www.shiksha.com/college/rohilkhand-ayurvedic-medical-college-and-hospital-bareilly-international-university-212171",
+  "https://www.shiksha.com/college/bebe-nanaki-university-college-mithra-gndu-kapurthala-70925",
+  "https://www.shiksha.com/college/kalawati-ayurvedic-medical-college-and-research-center-kasganj-87499",
+  "https://www.shiksha.com/college/swami-kalyan-dev-government-ayurvedic-college-and-hospital-muzaffarnagar-210133",
+  "https://www.shiksha.com/university/jigyasa-university-dehradun-25104",
+  "https://www.shiksha.com/college/hk-college-of-pharmacy-mumbai-87979",
+  "https://www.shiksha.com/college/p-s-v-college-of-pharmaceutical-science-and-research-krishnagiri-156611",
+  "https://www.shiksha.com/college/sri-sri-ayurvedic-medical-college-bangalore-185847",
+  "https://www.shiksha.com/college/autonomous-state-medical-college-kanpur-dehat-uttar-pradesh-other-231140",
+  "https://www.shiksha.com/university/meenakshi-academy-of-higher-education-and-research-chennai-65809",
+  "https://www.shiksha.com/college/nootan-medical-college-and-research-centre-visnagar-67589",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1301
+    c_count = 1581
 
     try:
         for base_url in BASE_URL:
