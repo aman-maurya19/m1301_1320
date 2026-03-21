@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/sree-ramakrishna-medical-college-of-naturopathy-and-yogic-sciences-kanyakumari-193613",
-  "https://www.shiksha.com/college/government-medical-college-chittorgarh-210115",
-  "https://www.shiksha.com/college/gujranwala-guru-nanak-khalsa-college-ludhiana-49366",
-  "https://www.shiksha.com/college/prime-college-pharmacy-palakkad-60815",
-  "https://www.shiksha.com/college/sheth-j-p-ayurved-college-bhavnagar-87539",
-  "https://www.shiksha.com/college/dr-balabhai-nanavati-hospital-mumbai-105873",
-  "https://www.shiksha.com/college/k-b-women-s-college-vinoba-bhave-university-hazaribagh-111849",
-  "https://www.shiksha.com/college/v-i-m-s-college-of-physiotheraphy-vijayawada-202111",
-  "https://www.shiksha.com/university/shree-om-university-roorkee-30564",
-  "https://www.shiksha.com/college/rohilkhand-ayurvedic-medical-college-and-hospital-bareilly-international-university-212171",
-  "https://www.shiksha.com/college/bebe-nanaki-university-college-mithra-gndu-kapurthala-70925",
-  "https://www.shiksha.com/college/kalawati-ayurvedic-medical-college-and-research-center-kasganj-87499",
-  "https://www.shiksha.com/college/swami-kalyan-dev-government-ayurvedic-college-and-hospital-muzaffarnagar-210133",
-  "https://www.shiksha.com/university/jigyasa-university-dehradun-25104",
-  "https://www.shiksha.com/college/hk-college-of-pharmacy-mumbai-87979",
-  "https://www.shiksha.com/college/p-s-v-college-of-pharmaceutical-science-and-research-krishnagiri-156611",
-  "https://www.shiksha.com/college/sri-sri-ayurvedic-medical-college-bangalore-185847",
-  "https://www.shiksha.com/college/autonomous-state-medical-college-kanpur-dehat-uttar-pradesh-other-231140",
-  "https://www.shiksha.com/university/meenakshi-academy-of-higher-education-and-research-chennai-65809",
-  "https://www.shiksha.com/college/nootan-medical-college-and-research-centre-visnagar-67589",
+  "https://www.shiksha.com/college/mayo-college-of-peramedical-science-bhopal-142735",
+  "https://www.shiksha.com/university/guru-nanak-dev-university-regional-campus-fattu-dhinga-punjab-other-55383",
+  "https://www.shiksha.com/college/all-india-institute-of-optometrical-sciences-kolkata-58769",
+  "https://www.shiksha.com/college/haveri-institute-of-medical-sciences-207477",
+  "https://www.shiksha.com/college/indian-veterinary-research-institute-bareilly-214961",
+  "https://www.shiksha.com/college/doon-valley-group-of-institutes-karnal-19924",
+  "https://www.shiksha.com/college/bapuji-pharmacy-college-davangere-67735",
+  "https://www.shiksha.com/college/yash-institute-of-pharmacy-aurangabad-88001",
+  "https://www.shiksha.com/college/shri-prakashchand-jain-college-of-pharmacy-and-research-jalgaon-89093",
+  "https://www.shiksha.com/college/ganga-medical-centre-and-hospital-pvt-ltd-coimbatore-106047",
+  "https://www.shiksha.com/college/sangam-sevabhavi-trust-s-ayurved-medical-college-ahmednagar-68121",
+  "https://www.shiksha.com/college/st-joseph-s-college-for-women-visakhapatnam-68885",
+  "https://www.shiksha.com/college/mai-bhago-ayurvedic-medical-college-muktsar-87149",
+  "https://www.shiksha.com/college/maharashtra-institute-of-physiotherapy-college-latur-189515",
+  "https://www.shiksha.com/university/fs-university-firozabad-214783",
+  "https://www.shiksha.com/college/ashwini-college-of-nursing-cuttack-227969",
+  "https://www.shiksha.com/college/st-xavier-inst-of-pharmacy-guntur-61011",
+  "https://www.shiksha.com/college/mahamaya-rajkiya-allopathic-medical-college-uttar-pradesh-other-63053",
+  "https://www.shiksha.com/college/ritee-group-of-institutes-raipur-22893",
+  "https://www.shiksha.com/college/radharaman-group-of-institutes-bhopal-47126",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1561
+    c_count = 1801
 
     try:
         for base_url in BASE_URL:
