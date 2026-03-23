@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/mayo-college-of-peramedical-science-bhopal-142735",
-  "https://www.shiksha.com/university/guru-nanak-dev-university-regional-campus-fattu-dhinga-punjab-other-55383",
-  "https://www.shiksha.com/college/all-india-institute-of-optometrical-sciences-kolkata-58769",
-  "https://www.shiksha.com/college/haveri-institute-of-medical-sciences-207477",
-  "https://www.shiksha.com/college/indian-veterinary-research-institute-bareilly-214961",
-  "https://www.shiksha.com/college/doon-valley-group-of-institutes-karnal-19924",
-  "https://www.shiksha.com/college/bapuji-pharmacy-college-davangere-67735",
-  "https://www.shiksha.com/college/yash-institute-of-pharmacy-aurangabad-88001",
-  "https://www.shiksha.com/college/shri-prakashchand-jain-college-of-pharmacy-and-research-jalgaon-89093",
-  "https://www.shiksha.com/college/ganga-medical-centre-and-hospital-pvt-ltd-coimbatore-106047",
-  "https://www.shiksha.com/college/sangam-sevabhavi-trust-s-ayurved-medical-college-ahmednagar-68121",
-  "https://www.shiksha.com/college/st-joseph-s-college-for-women-visakhapatnam-68885",
-  "https://www.shiksha.com/college/mai-bhago-ayurvedic-medical-college-muktsar-87149",
-  "https://www.shiksha.com/college/maharashtra-institute-of-physiotherapy-college-latur-189515",
-  "https://www.shiksha.com/university/fs-university-firozabad-214783",
-  "https://www.shiksha.com/college/ashwini-college-of-nursing-cuttack-227969",
-  "https://www.shiksha.com/college/st-xavier-inst-of-pharmacy-guntur-61011",
-  "https://www.shiksha.com/college/mahamaya-rajkiya-allopathic-medical-college-uttar-pradesh-other-63053",
-  "https://www.shiksha.com/college/ritee-group-of-institutes-raipur-22893",
-  "https://www.shiksha.com/college/radharaman-group-of-institutes-bhopal-47126",
+  "https://www.shiksha.com/college/sai-homoeopathic-medical-college-thane-189511",
+  "https://www.shiksha.com/college/meridian-school-of-nursing-varanasi-200015",
+  "https://www.shiksha.com/college/guru-nanak-institute-of-pharmacy-hoshiarpur-59225",
+  "https://www.shiksha.com/college/vagdevi-college-of-pharmacy-andhra-pradesh-other-60973",
+  "https://www.shiksha.com/college/ame-s-dental-college-and-hospital-raichur-78019",
+  "https://www.shiksha.com/college/dr-hahnemann-homoeopathy-medical-college-and-research-centre-namakkal-87353",
+  "https://www.shiksha.com/college/kamdar-homeopathic-medical-college-and-research-center-rajkot-87453",
+  "https://www.shiksha.com/college/sun-institute-of-pharmaceutical-education-and-research-lahar-madhya-pradesh-other-88091",
+  "https://www.shiksha.com/college/longowal-group-of-colleges-derabassi-99361",
+  "https://www.shiksha.com/college/shri-ram-college-of-pharmacy-morena-147163",
+  "https://www.shiksha.com/college/gurukul-edutech-education-and-research-foundation-garia-kolkata-203499",
+  "https://www.shiksha.com/college/p-s-m-college-of-dental-science-and-research-thrissur-66113",
+  "https://www.shiksha.com/college/womens-polytechnic-college-hooghly-100857",
+  "https://www.shiksha.com/college/rajkiya-medical-college-basti-rampur-65291",
+  "https://www.shiksha.com/college/shri-bhagwan-college-of-pharmacy-aurangabad-88003",
+  "https://www.shiksha.com/college/dr-dayaram-patel-pharmacy-college-surat-88309",
+  "https://www.shiksha.com/college/autonomous-state-medical-college-pratapgarh-uttar-pradesh-other-180747",
+  "https://www.shiksha.com/college/government-medical-college-and-hospital-jajpur-231148",
+  "https://www.shiksha.com/college/sti-srimati-techno-institute-hazra-kolkata-28752",
+  "https://www.shiksha.com/college/jagannath-institute-of-management-sciences-rohini-rohini-delhi-45543",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1801
+    c_count = 2001
 
     try:
         for base_url in BASE_URL:
