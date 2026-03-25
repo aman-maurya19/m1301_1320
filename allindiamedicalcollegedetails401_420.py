@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/dhanwantari-ayurved-medical-college-and-hospital-latur-68247",
-  "https://www.shiksha.com/college/devs-homoeopathic-medical-college-and-hospital-medchal-hyderabad-87171",
-  "https://www.shiksha.com/college/satara-college-of-pharmacy-87603",
-  "https://www.shiksha.com/college/nezamia-unani-medical-college-and-hospital-gaya-182255",
-  "https://www.shiksha.com/college/government-medical-college-idukki-207507",
-  "https://www.shiksha.com/college/government-medical-college-nirmal-telangana-other-213195",
-  "https://www.shiksha.com/college/guru-nanak-dev-university-college-verka-gndu-amritsar-229473",
-  "https://www.shiksha.com/college/ujala-cygnus-super-speciality-hospital-kaithal-245206",
-  "https://www.shiksha.com/college/shree-pe-tatya-patil-institute-of-pharmacy-jalgaon-89145",
-  "https://www.shiksha.com/college/ratnadeep-college-of-allied-health-sciences-hubli-210849",
-  "https://www.shiksha.com/college/kmc-medical-college-hospital-maharajganj-231740",
-  "https://www.shiksha.com/college/clinilaunch-research-institute-chennai-guindy-241052",
-  "https://www.shiksha.com/college/national-institute-of-electronics-information-technology-agartala-50696",
-  "https://www.shiksha.com/college/institute-of-dental-education-and-advance-studies-jabalpur-67419",
-  "https://www.shiksha.com/college/smt-vimladevi-ayurvedic-medical-college-and-hospital-maharashtra-other-68215",
-  "https://www.shiksha.com/college/vedic-institute-of-pharmaceutical-education-and-research-sagar-88055",
-  "https://www.shiksha.com/college/cnk-reddy-college-of-pharmacy-bangalore-88133",
-  "https://www.shiksha.com/college/mai-bhago-government-polytechnic-college-for-girls-amritsar-98351",
-  "https://www.shiksha.com/college/hi-tech-college-of-pharmacy-chandrapur-179651",
-  "https://www.shiksha.com/college/cauvery-college-of-physiotherapy-mysore-210811",
+  "https://www.shiksha.com/college/naseema-fareed-institute-of-speech-and-hearing-bangalore-69433",
+  "https://www.shiksha.com/college/ssj-college-of-pharmacy-hyderabad-87725",
+  "https://www.shiksha.com/college/sbs-college-of-pharmacy-sohian-kalan-amritsar-88623",
+  "https://www.shiksha.com/college/sanjay-college-of-pharmacy-mathura-59777",
+  "https://www.shiksha.com/college/arya-college-of-pharmacy-bareilly-65839",
+  "https://www.shiksha.com/college/akshar-preet-institute-of-pharmacy-jamnagar-88019",
+  "https://www.shiksha.com/college/mn-college-of-pharmacy-khambhat-88293",
+  "https://www.shiksha.com/college/shri-ramkrishna-paramhans-college-of-pharmacy-parbhani-89019",
+  "https://www.shiksha.com/college/dhanvantari-nursing-college-bangalore-89781",
+  "https://www.shiksha.com/college/holy-family-hospital-and-medical-research-centre-maharashtra-other-106013",
+  "https://www.shiksha.com/college/swami-vivekand-college-of-information-technology-latur-111831",
+  "https://www.shiksha.com/college/sahara-degree-college-rampur-133711",
+  "https://www.shiksha.com/college/laxman-seth-pharmacy-college-madhya-pradesh-other-147297",
+  "https://www.shiksha.com/college/srinivasan-college-of-pharmaceutical-sciences-trichy-194007",
+  "https://www.shiksha.com/college/lisieux-college-of-paramedical-sciences-ernakulum-194725",
+  "https://www.shiksha.com/college/noble-ayurved-college-and-research-institute-junagadh-197505",
+  "https://www.shiksha.com/college/om-sai-college-of-pharmacy-and-health-science-ganjam-200581",
+  "https://www.shiksha.com/college/srinivasa-educational-trust-s-r-srinivasa-college-of-pharmacy-bangalore-207945",
+  "https://www.shiksha.com/college/anusaya-institute-of-pharmacy-pune-88961",
+  "https://www.shiksha.com/college/hind-institute-of-medical-sciences-barabanki-90011",
 ]
 
 
@@ -9246,7 +9246,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2281
+    c_count = 3001
 
     try:
         for base_url in BASE_URL:
