@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/naseema-fareed-institute-of-speech-and-hearing-bangalore-69433",
-  "https://www.shiksha.com/college/ssj-college-of-pharmacy-hyderabad-87725",
-  "https://www.shiksha.com/college/sbs-college-of-pharmacy-sohian-kalan-amritsar-88623",
-  "https://www.shiksha.com/college/sanjay-college-of-pharmacy-mathura-59777",
-  "https://www.shiksha.com/college/arya-college-of-pharmacy-bareilly-65839",
-  "https://www.shiksha.com/college/akshar-preet-institute-of-pharmacy-jamnagar-88019",
-  "https://www.shiksha.com/college/mn-college-of-pharmacy-khambhat-88293",
-  "https://www.shiksha.com/college/shri-ramkrishna-paramhans-college-of-pharmacy-parbhani-89019",
-  "https://www.shiksha.com/college/dhanvantari-nursing-college-bangalore-89781",
-  "https://www.shiksha.com/college/holy-family-hospital-and-medical-research-centre-maharashtra-other-106013",
-  "https://www.shiksha.com/college/swami-vivekand-college-of-information-technology-latur-111831",
-  "https://www.shiksha.com/college/sahara-degree-college-rampur-133711",
-  "https://www.shiksha.com/college/laxman-seth-pharmacy-college-madhya-pradesh-other-147297",
-  "https://www.shiksha.com/college/srinivasan-college-of-pharmaceutical-sciences-trichy-194007",
-  "https://www.shiksha.com/college/lisieux-college-of-paramedical-sciences-ernakulum-194725",
-  "https://www.shiksha.com/college/noble-ayurved-college-and-research-institute-junagadh-197505",
-  "https://www.shiksha.com/college/om-sai-college-of-pharmacy-and-health-science-ganjam-200581",
-  "https://www.shiksha.com/college/srinivasa-educational-trust-s-r-srinivasa-college-of-pharmacy-bangalore-207945",
-  "https://www.shiksha.com/college/anusaya-institute-of-pharmacy-pune-88961",
-  "https://www.shiksha.com/college/hind-institute-of-medical-sciences-barabanki-90011",
+  "https://www.shiksha.com/college/gurukul-college-for-excellence-bhopal-230060",
+  "https://www.shiksha.com/college/goalpara-pharmacy-institute-assam-other-231380",
+  "https://www.shiksha.com/college/garg-p-g-college-laksar-haridwar-236634",
+  "https://www.shiksha.com/college/mgm-medical-college-navi-mumbai-244956",
+  "https://www.shiksha.com/university/pacific-medical-university-udaipur-67815",
+  "https://www.shiksha.com/college/sri-paripoorna-sanathana-ayurveda-medical-college-hospital-and-research-centre-karnataka-other-68297",
+  "https://www.shiksha.com/college/gulabrao-patil-college-of-pharmacy-sangli-88851",
+  "https://www.shiksha.com/college/vishal-junnar-seva-mandal-s-institute-of-pharmacy-pune-89247",
+  "https://www.shiksha.com/college/government-polytechnic-for-women-srikakulam-98853",
+  "https://www.shiksha.com/college/s-k-s-hospital-and-post-graduate-medical-institute-salem-105997",
+  "https://www.shiksha.com/college/tata-motors-multispeciality-post-graduate-teaching-hospital-jamshedpur-106095",
+  "https://www.shiksha.com/college/the-voluntary-health-services-and-medical-centre-chennai-106099",
+  "https://www.shiksha.com/college/shri-chandra-bhan-singh-degree-college-agra-143521",
+  "https://www.shiksha.com/college/colaco-college-b-sc-medical-laboratory-technology-mangalore-201923",
+  "https://www.shiksha.com/university/lok-jagruti-university-ahmedabad-202489",
+  "https://www.shiksha.com/college/sarvodya-college-of-pharmacy-dadri-207571",
+  "https://www.shiksha.com/college/rp-college-of-pharmacy-garhwa-207631",
+  "https://www.shiksha.com/college/sri-ganganagar-institute-of-pharmaceutical-sciences-rajasthan-other-208217",
+  "https://www.shiksha.com/college/sri-ramachandra-college-of-pharmacy-nagapattinam-208269",
+  "https://www.shiksha.com/college/apollomedics-superspeciality-hospital-lucknow-214299",
 ]
 
 
@@ -9246,7 +9246,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 3001
+    c_count = 3261
 
     try:
         for base_url in BASE_URL:
